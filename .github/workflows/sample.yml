@@ -23,7 +23,7 @@ jobs:
     - name: Docker Tag
       run: docker tag hello-world prasannatdl/hello-world
     - name: Docker Push
-      run: docker push neeharikarn9/hello-world
+      run: docker push prasannatdl/hello-world
   LogintodockerhubQA:
     runs-on: ubuntu-latest
     environment: QA
